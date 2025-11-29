@@ -1,0 +1,94 @@
+.auth-page {
+  backdrop-filter: blur(11px);
+  background: linear-gradient(#f8d44280, #feaf0080);
+  transition: all 2s ease-in;
+}
+.auth-page h2 {
+  font-size: 22px;
+  color: #000000;
+}
+.max-h-custom {
+  /* max-height: 640px; */
+}
+.auth-form {
+  display: none;
+  width: 476px;
+  height: 550px;
+  padding: 42px 30.06px 41px 30.06px;
+  box-shadow: 2px 5px 10px 0px #0000001a;
+}
+.platform-logo-form {
+  width: 151.32px;
+  height: 41px;
+}
+.form-caption {
+  font-size: 14px;
+  color: #6c6c6c;
+}
+.input-field {
+  font-size: 12px;
+}
+
+/* --------------------------- */
+.close-auth {
+  z-index: 100000;
+  position: absolute;
+  display: block;
+  width: 36px;
+  height: 36px;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+/* ----------------------- */
+.auth-btn {
+  font-size: 14px;
+  background-color: #feaf00;
+  border: none;
+}
+.auth-link {
+  font-size: 14px;
+  color: #feaf00;
+}
+.btn-warning:hover {
+  transform: scale(1.01);
+}
+.btn-warning:active {
+  transform: scale(1);
+}
+/* ------------------------ */
+.form-sign-up {
+  height: 710px;
+}
+.min-h-100 {
+  min-width: 100px;
+}
+/* ------------------------ */
+.custom-file-container {
+  width: 100px;
+  height: 100px;
+  border: 1px dashed #384eb74d;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #f8f8ff;
+  transition: background-color 0.2s;
+  font-size: 12px;
+  text-align: center;
+}
+
+.custom-file-container:hover {
+  background-color: #f8f9fa;
+}
+
+.custom-file-container p {
+  margin-top: 10px;
+  color: #6c757d;
+}
+/* ------------------------- */

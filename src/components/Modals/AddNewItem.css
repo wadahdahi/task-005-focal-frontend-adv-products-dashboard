@@ -1,0 +1,13 @@
+.add-new-item {
+}
+.btn-back {
+  width: 40px;
+  height: 40px;
+  color: #000000;
+  border: 1px solid #000000;
+  text-decoration: none;
+}
+.btn-back:hover {
+  color: #ffffff;
+  background-color: #feaf00;
+}

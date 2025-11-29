@@ -1,0 +1,46 @@
+.sidebar {
+  width: 270px;
+  background-color: #f2eae1;
+}
+.nav-padding {
+  padding: 35px 38px 31px 39px;
+}
+.platform-logo {
+  width: 97.23px;
+  height: 23px;
+}
+.user-profile-image {
+  width: 128px;
+  height: 128px;
+}
+
+.btn-inner-outline {
+  position: relative;
+  border: none;
+}
+.btn-inner-outline:active {
+  transform: scale(0.98);
+}
+.btn-inner-outline::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  border: 2px solid #f2eae1;
+  border-radius: inherit;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+.btn-inner-outline:hover::after {
+  top: 4.6px;
+  left: 4.6px;
+  right: 4.6px;
+  bottom: 4.6px;
+}
+.btn-inner-outline:active::after {
+  opacity: 0;
+}
+/* ------------------ */

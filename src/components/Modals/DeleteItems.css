@@ -1,0 +1,16 @@
+.delete-overlay {
+  /* z-index: 111; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 999;
+}
+
+.delete-box {
+  max-width: 400px;
+}
+.blurred-background {
+  /* z-index: 0; */
+  filter: blur(1px);
+}
