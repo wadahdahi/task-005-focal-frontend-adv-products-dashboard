@@ -29,7 +29,7 @@ A modern, clean, and fully interactive product management dashboard built with *
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/task-005-focal-frontend-adv-products-dashboard.git
+git clone https://github.com/wadahdahi/task-005-focal-frontend-adv-products-dashboard.git
 
 # Navigate to project directory
 cd task-005-focal-frontend-adv-products-dashboard
